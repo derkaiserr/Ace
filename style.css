@@ -415,7 +415,7 @@ button{
 
 .draw-out{
     width: 80%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     right: -200px;
     background-color: #fff;
