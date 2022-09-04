@@ -14,9 +14,11 @@ body{
     margin: 0 5rem;
     /* overflow-x: hidden; */
     width: 75rem;
+    background-color: #fff;
 }
 header{
     display: grid;
+    background-color: #fff;
     grid-template-columns: 1.15fr 1fr;
     margin: 5rem 0 2rem;
     font-family: var(--outfit);
@@ -83,12 +85,14 @@ header{
     color: #FBFBFB;
     border-radius: 20px;
     font-size: 28px;
+    /* background-color: ; */
     margin: 2rem 0;
 }
 
 .section-two{
     font-family: var(--manrope);
     margin-bottom: 20rem;
+    background-color: #fff;
     
 }
 
@@ -489,10 +493,7 @@ header{
     position: relative;
     /* background: url(./background-phone.png), 0.5; */
     /* opacity: 0.4; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
+    background-color: #fff;
 }
 .section-one button{
     width: 13rem;
@@ -515,10 +516,12 @@ header{
     margin-bottom: 2rem;
 
 }
+
 .section-two{
+    background-color: #f0efef;
     padding: 2rem 1rem;
     margin: 0;
-    background-color: #f0efef;
+    /* transition: transform 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22); */
 
 }
 .section-two h2{
