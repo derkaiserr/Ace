@@ -521,23 +521,18 @@ header{
     background-color: #f0efef;
     padding: 2rem 1rem;
     margin: 0;
-    /* transition: transform 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22); */
 
 }
 .section-two h2{
     font-size: 35px;
     margin-bottom: 2rem;
 }
-/* .price, li{
-    font-size: 25px;
-} */
+
 .section-three, .section-four, .section-five{
     padding: 1rem 1rem;
     display: block;
-    /* width: 100%; */
     margin: 0;
     background-color: #f0efef;
-    /* padding: 1rem; */
 }
 .section-three h2{
     padding: 2rem 0 1rem;
