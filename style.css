@@ -417,7 +417,7 @@ button{
     width: 80%;
     position: fixed;
     top: 0px;
-    right: -340px;
+    right: -110%;
     background-color: #fff;
     font-family: var(--manrope);
     font-size: 28px;

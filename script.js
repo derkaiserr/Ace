@@ -21,7 +21,7 @@ lines.addEventListener('click', function(){
     sectionT.style.backgroundColor = 'grey'
     header.style.backgroundColor = 'grey'
     header.style.filter = 'blur(0.2rem)'
-    phoneNav.style.transform = 'translateX(-340px)'
+    phoneNav.style.transform = 'translateX(-135%)'
     
 }, false)
 
