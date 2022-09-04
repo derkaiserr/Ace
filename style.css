@@ -427,7 +427,7 @@ button{
     visibility:hidden;
     display: none;
    
-    transition: all 0.5s ease-in;
+    transition: transform 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 
 }
 .rights, .menu{
