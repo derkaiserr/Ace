@@ -425,7 +425,7 @@ button{
     z-index: 4;
     padding: 3rem 1rem 10rem;
     visibility:hidden;
-    display: none;
+/*     display: none; */
    
     transition: transform 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 
