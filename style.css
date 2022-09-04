@@ -43,7 +43,17 @@ header{
 .section-one{
     text-align: center;
     font-family: var(--manrope);
+    position: relative;
     
+}
+.phone-image{
+    display: none;
+}
+.web-image{
+    position: absolute;
+    opacity: 0.1;
+    width: 90%;
+    top: -1rem;
 }
 
 .success{
@@ -79,6 +89,7 @@ header{
 .section-two{
     font-family: var(--manrope);
     margin-bottom: 20rem;
+    
 }
 
 .section-two h2{
@@ -128,8 +139,8 @@ li{
 
 .section-three{
     background-color: #f0efef;
-    margin: 0 -4.4rem ;
-    padding: 36rem 4.4rem 4.4rem;
+    margin: 0 -4.4rem 0 -4.88rem ;
+    padding: 36rem 4.4rem 4.4rem 4.9rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
@@ -145,9 +156,9 @@ li{
 }
 
 .section-four{
-    padding: 5rem 4.4rem;
+    padding: 5rem 4.4rem 5rem 4.8rem;
     background-color: #FBFBFB;
-    margin: 0 -4.4rem ;
+    margin: 0 -4.4rem 0 -4.8rem ;
 }
 
 .section-four h2{
@@ -190,8 +201,8 @@ li{
 
 .section-five{
     background-color: #f0efef;
-    padding: 2rem 4.4rem 4.5rem;
-    margin: 0 -4.4rem;
+    padding: 2rem 4.4rem 4.5rem 4.8rem;
+    margin: 0 -4.4rem 0 -4.95rem;
 }
 .section-five h2{
     font-size: 60px;
@@ -279,9 +290,9 @@ input:focus{
 footer{
     display: grid;
     grid-template-columns: 1.1fr 1fr 0.647fr;
-    margin: 0 -4.4rem;
+    margin: 0 -4.4rem 0 -4.8rem;
     background-color: #FBFBFB;
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 5rem 2.7rem;
 }
 
 .footer-logo{
@@ -400,4 +411,282 @@ background: #D9D9D9;
 }
 button{
     cursor: pointer;
+}
+
+.draw-out{
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    background-color: #fff;
+    font-family: var(--manrope);
+    font-size: 28px;
+    font-weight: 700;
+    z-index: 4;
+    padding: 3rem 1rem 10rem;
+    visibility:hidden;
+    display: none;
+   
+    transition: all 0.5s ease-in;
+
+}
+.rights, .menu{
+    font-weight: 400;
+}
+.menu, #home{
+    margin-top: -1rem;
+    /* filter: blur(0.1rem); */
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    color: #692781;
+}
+.line{
+    background-color: black;
+    width: 1.5rem;
+    margin: 4px;
+    height: 3px;
+    border-radius: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.lines{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    /* @ */
+
+    body{
+        width: auto;
+        margin: 0;
+        /* height: 453rem; */
+        height: max-content;
+    }
+    .nav{
+        display: none;
+    }
+
+    
+/* .lines{
+    display: block;
+} */
+
+header{
+    grid-template-columns: 5fr 0.5fr;
+    padding: 2rem 1rem;
+    margin: 0;
+    background-color: #f0efef;
+}
+.web-image{
+    display: none;
+}
+.phone-image{
+    position: absolute;
+    display: block;
+    opacity: 0.2;
+}
+.section-one{
+    padding: 0 1.5rem;
+    position: relative;
+    /* background: url(./background-phone.png), 0.5; */
+    /* opacity: 0.4; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+}
+.section-one button{
+    width: 13rem;
+    height: 4rem;
+    font-size: 22px;
+}
+.success{
+    font-size: 30px;
+    padding-top: 1rem;
+    font-weight: 800;
+}
+.packages, .lines{
+    display: block;
+    position: relative;
+}
+.packages{
+    margin: 3rem 0rem 0 2rem;
+}
+.plan-one{
+    margin-bottom: 2rem;
+
+}
+.section-two{
+    padding: 2rem 1rem;
+    margin: 0;
+    background-color: #f0efef;
+
+}
+.section-two h2{
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+/* .price, li{
+    font-size: 25px;
+} */
+.section-three, .section-four, .section-five{
+    padding: 1rem 1rem;
+    display: block;
+    /* width: 100%; */
+    margin: 0;
+    background-color: #f0efef;
+    /* padding: 1rem; */
+}
+.section-three h2{
+    padding: 2rem 0 1rem;
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto 2rem ;
+}
+.paragraph-two{
+    font-size: 15px;
+    padding: 0 2rem;
+}
+.section-four h2{
+    padding: 2rem 0;
+    font-size: 30px;
+}
+.TRADE{
+    display: block;
+}
+
+img{
+    width: 80%;
+
+}
+
+.five-grid{
+    display: block;
+    /* text-align: center; */
+    padding-left: 3.5rem;
+    margin-right: 0;
+    padding-right: 0;
+}
+.black{
+    text-align: center;
+    margin:  0 0 2rem -3rem ;
+}
+.trade-grid{
+    margin: 0 0 5rem 2.5rem;
+}
+.TRADE{
+    margin-top: -2rem;
+    margin-bottom: 0;
+}
+
+.svg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 25px;
+    padding: 0px;
+    
+}
+.svgg{
+    margin: -1rem 0 1rem 7.3rem;
+    width: 8rem;
+}
+.SVG{
+    margin: 4rem 0 0 1.7rem;
+
+}
+
+.inp{
+    margin: 0;
+    display: block;
+    width: 100%;
+    margin-left: 1rem;
+}
+ .inp button, input{
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 4rem;
+    font-size: 16px;
+    margin-left: -1rem;
+ }
+
+
+ footer{
+    margin: 0;
+    padding: 2rem 1rem 5rem;
+    display: block;
+    line-height: 25rem;
+    text-align: center;
+    width: 100%;
+    background-color: #f0efef;
+ }
+ .footer-logo{
+    font-size: 35px;
+    /* padding: 2rem auto; */
+    /* height: 4rem; */
+    margin: -10rem 0 -10rem;
+ }
+ footer p{
+    font-size: 22px;
+ }
+
+ .svggg{
+    position: absolute;
+    top: 439.5rem;
+    margin: 0 0 0 0.7rem;
+    width: 2rem;
+
+ }
+ 
+
+    .svg1, .sv{
+        left: 6rem;
+    }
+    .svg2,.sv2{
+        left: 10rem;
+    }
+    .svg3, .sv3{
+        left: 14rem;
+        top: 439.4rem;
+    }
+    .svg4, .sv4{
+     top: 439.4rem;
+     left: 18rem;
+    }
+    
+    
+    .sv, .sv2,.sv3,.sv4{
+        top: 438.91rem;
+        position: absolute;
+    }
+
+
+
+.section-five{
+    /* padding: 2rem 0 4.5rem 1.4rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    margin: -1rem 0 0 0;
+}
+.section-five h2{
+    font-size: 25px;
+    /* text-align: center; */
+    padding: 0; 
+    width: 110%;
+    margin-left: -1rem;
+    
+}
+
+.parag, .paragg{
+    font-size: 16px;
+}
+.walk{
+    margin-top: 2rem;
+}
+
+
+
+
 }
