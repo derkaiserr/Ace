@@ -8,10 +8,8 @@ let section = document.querySelector('.section-one')
 let sectionT = document.querySelector('.section-two')
 let header = document.querySelector('header')
 
-phoneNav.style.display = 'none'
 lines.addEventListener('click', function(){
-    // phoneNavv.style.transition = 'all 6s ease-in'
-    phoneNav.style.display = 'block'
+ 
     section.style.transition = 'all 0.4s ease-in'
     body.style.transition = 'all 0.4s ease-in'
     header.style.transition = 'all 0.4s ease-in'
@@ -23,8 +21,7 @@ lines.addEventListener('click', function(){
     sectionT.style.backgroundColor = 'grey'
     header.style.backgroundColor = 'grey'
     header.style.filter = 'blur(0.2rem)'
-    phoneNav.style.transform = 'translateX(-200px)'
-    // phoneNavv.style.transform += 'translateX(70px)'
+    phoneNav.style.transform = 'translateX(-340px)'
     
 }, false)
 
@@ -32,7 +29,6 @@ x.addEventListener('click', function(){
     header.style.filter = 'blur(0rem)'
     phoneNav.style.transform = 'translateX(200px)'
     section.style.filter = 'blur(0rem)'
-    phoneNav.style.visibility = 'hidden'
     sectionT.style.filter = 'blur(0rem)'
     body.style.overflow = 'visible'
     sectionT.style.backgroundColor = '#f0efef'
